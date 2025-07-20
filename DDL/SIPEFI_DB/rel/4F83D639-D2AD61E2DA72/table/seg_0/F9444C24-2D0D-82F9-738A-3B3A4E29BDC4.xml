@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9444C24-2D0D-82F9-738A-3B3A4E29BDC4" schemaObject="A83DAE82-98F7-BAD9-6C49-A803BE28992E" name="TC_RELACION_MODALIDAD">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:20:48 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_modalidad" id="3050A0E6-7A26-F549-CB87-4E589E4CBD7D">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:21:28 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD7F10ED-5CAC-DB45-39AE-45D54B9435A3" referredColumn="71B6F4D7-C663-1E4A-AC11-EB0917D63AE7"/>
+</associations>
+</Column>
+<Column name="id_tipo_modalidad" id="227550B5-F7D5-C313-24B9-AF02B72ABCBE">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:21:39 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A10A548-E239-BC86-D210-D8637246D8AF" referredColumn="7173B677-AC8D-B515-A278-41B736D51C84"/>
+</associations>
+</Column>
+<Column name="bfecha" id="6037C8BC-608D-B30E-E38E-E6C2ECFD97E7">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:23:00 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="busuario" id="AD11270D-BBF0-44A0-7FF5-81C5AFF4A9E2">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:23:00 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B5A970A-B531-9D97-38B8-31A373083E40" name="relacion_modalidad_pk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:23:00 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3050A0E6-7A26-F549-CB87-4E589E4CBD7D"/>
+<colUsage columnID="227550B5-F7D5-C313-24B9-AF02B72ABCBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A58D319-5109-D0AF-2ED1-57CA2B1DDA85" name="id_modalidad_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:21:28 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3050A0E6-7A26-F549-CB87-4E589E4CBD7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A25CBA5-6EA5-B540-B977-62437AC190FD" name="id_tipo_modalidad_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:21:39 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="227550B5-F7D5-C313-24B9-AF02B72ABCBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

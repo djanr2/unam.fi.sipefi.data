@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C3C4F147-DE1C-8212-5137-B4B48DFD7117" containerWithKeyObject="5BC5A4B0-2DC5-FA50-1244-38D49430E111" localFKIndex="24677AFD-99CE-11F5-A984-3B34AD02D27D" name="tema_asig_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 20:07:35 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<referredTableLongName>TD_TEMARIO_ASIGNATURA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C2345B37-1534-F908-9495-4687AC872B66</referredTableID>
+<keyObject>3D88C0DF-05F7-06B0-89EA-E3E70194A89D</keyObject>
+<referredKeyID>3D88C0DF-05F7-06B0-89EA-E3E70194A89D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_solicitud,id_estatus_solicitud,num_tema</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

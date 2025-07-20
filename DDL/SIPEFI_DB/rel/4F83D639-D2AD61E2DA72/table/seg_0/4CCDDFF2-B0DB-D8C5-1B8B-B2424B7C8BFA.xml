@@ -1,0 +1,229 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CCDDFF2-B0DB-D8C5-1B8B-B2424B7C8BFA" schemaObject="43447D81-74CE-CFAC-B7F3-891C016B68AE" name="TD_BIBLIOGRAFIA">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 20:54:44 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_solicitud" id="FFA8E237-B162-6C94-4CF6-70F04292FDD2">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 20:55:23 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AB20ACD-774D-497E-13B1-390BEBCDA220" referredColumn="90D7FB0C-0BC0-5CEA-0715-B4598EEF411C"/>
+</associations>
+</Column>
+<Column name="id_estatus_solicitud" id="AAF299A6-2528-9E59-42EE-3E643E8318A4">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 20:55:23 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AB20ACD-774D-497E-13B1-390BEBCDA220" referredColumn="B70911BC-72EC-A42C-8C27-78F5C9FE8784"/>
+</associations>
+</Column>
+<Column name="id_bibliografia" id="CB23ACE6-A07B-9639-10CA-9BC7F212CF5B">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:09:36 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="es_complementaria" id="41E017D5-0348-FDC0-AE1A-74A343CA9BC8">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:23:28 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tipo_bibliografia" id="70A3C468-6924-A9BB-69BC-9329E364B39E">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:08:35 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F98C334-39AE-E650-BA69-2D9804F9ADEB" referredColumn="E8311107-5033-16DC-6C36-4A6357E6BB00"/>
+</associations>
+</Column>
+<Column name="autor" id="F27F9905-F4B5-66EA-B52F-45C6713DD6E4">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:19:24 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="publicacion" id="B118D95E-1737-094B-2C4E-90BA0ACC5E57">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:19:24 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="28A8AAF0-A519-3286-EA82-46387A108BD7">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:19:24 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="campo_1" id="5218E7DB-3871-EA3E-9FE0-F05018369E45">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:19:24 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="campo_2" id="908A3F21-FB36-539F-1CAC-AD0E19498418">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:19:24 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="campo_3" id="CA97EF47-A46F-F900-582D-2CC2F80EED77">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:19:24 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="campo_4" id="D43854F8-055C-F455-1CB1-95DFFE95358F">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:19:24 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="temas_recomienda" id="C2297619-4D0F-AE63-D366-8C519D35AD76">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:21:44 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="busuario" id="10C07E0A-D04A-663C-F0AA-27BD6FC53F80">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:19:24 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bfecha" id="365EE16A-1B18-F8D0-A40E-BCAF44F9F8F1">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:19:24 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B66F647B-A063-7E71-B135-DC7DCFC271EF" name="bibliografia_pk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:10:03 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFA8E237-B162-6C94-4CF6-70F04292FDD2"/>
+<colUsage columnID="AAF299A6-2528-9E59-42EE-3E643E8318A4"/>
+<colUsage columnID="CB23ACE6-A07B-9639-10CA-9BC7F212CF5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE80589C-6AE5-F68C-9F8E-AE41E6871C2B" name="sol_tomoii_biblio_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 20:55:23 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFA8E237-B162-6C94-4CF6-70F04292FDD2"/>
+<colUsage columnID="AAF299A6-2528-9E59-42EE-3E643E8318A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC35C770-0188-8EEC-A0CB-0B3918CB3551" name="tipo_biblio_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:08:35 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70A3C468-6924-A9BB-69BC-9329E364B39E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

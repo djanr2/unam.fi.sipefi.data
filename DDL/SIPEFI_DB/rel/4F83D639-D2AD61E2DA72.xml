@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="SIPEFI" id="4F83D639-172E-8B61-4AE5-D2AD61E2DA72" mainViewID="C8C05BB5-B59B-4B01-D451-D11C3E870E72">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-06-28 21:41:19 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+</relationalModel>

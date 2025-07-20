@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD109175-1E11-E160-8D70-E4389C82C553" containerWithKeyObject="AC530CA7-79A3-FB81-7BF2-CCB03661DA8A" localFKIndex="384ECBB3-409E-853C-4AF3-485D81BD7B4E" name="seriacion_cons_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 19:29:44 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<referredTableLongName>SIPEFI.TD_ASIGNATURA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8501F219-1C75-61A9-154C-1E616D02CF23</referredTableID>
+<keyObject>EC48FD60-F4D3-B268-2F05-89B5B2439706</keyObject>
+<referredKeyID>EC48FD60-F4D3-B268-2F05-89B5B2439706</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_asignatura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

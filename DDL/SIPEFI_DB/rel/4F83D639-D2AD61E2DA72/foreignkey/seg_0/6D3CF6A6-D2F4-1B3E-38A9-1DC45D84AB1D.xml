@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6D3CF6A6-D2F4-1B3E-38A9-1DC45D84AB1D" containerWithKeyObject="D2D466D4-9953-B04E-466E-1D16E4110550" localFKIndex="DCB8BB85-F269-801C-9C86-A913A0087D2D" name="id_usuario_sist_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 16:15:09 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<referredTableLongName>SIPEFI.TD_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A74853B1-E2A9-361F-519D-43E76E6D67B3</referredTableID>
+<keyObject>B1210FAD-2CF0-6B9C-1ECD-2F87C37C3488</keyObject>
+<referredKeyID>B1210FAD-2CF0-6B9C-1ECD-2F87C37C3488</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

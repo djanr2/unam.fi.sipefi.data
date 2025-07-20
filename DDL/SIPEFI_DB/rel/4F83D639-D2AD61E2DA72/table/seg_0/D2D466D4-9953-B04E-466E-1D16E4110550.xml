@@ -1,0 +1,321 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2D466D4-9953-B04E-466E-1D16E4110550" schemaObject="43447D81-74CE-CFAC-B7F3-891C016B68AE" name="TD_SOLICITUD_TOMO_II">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 16:09:37 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_solicitud" id="90D7FB0C-0BC0-5CEA-0715-B4598EEF411C">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 16:11:44 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_estatus_solicitud" id="B70911BC-72EC-A42C-8C27-78F5C9FE8784">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 16:11:49 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11EE6E34-DCD5-2BBF-708C-75C5B523FC74" referredColumn="A6ED083B-D249-F1FF-F076-F77BD1BE5242"/>
+</associations>
+</Column>
+<Column name="historica" id="44870B71-C389-11F5-77D0-94F900A51977">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 16:15:01 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creditos" id="A1B053C0-4726-F466-D3F4-59895834BEB3">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:08:57 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_area_conocimiento" id="D4A2D900-849C-3380-0444-A75B7A659039">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:14:06 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE8190B8-7CE1-86BA-41AC-6D45FB1FCFCF" referredColumn="F4FFAE82-FBAC-C874-807A-5A780FABD57C"/>
+</associations>
+</Column>
+<Column name="id_modalidad" id="A22A432F-ACE6-E975-B234-65A622A2429A">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:25:55 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="643426FA-C25D-8EF9-4B7C-925C55C2B900" referredColumn="3050A0E6-7A26-F549-CB87-4E589E4CBD7D"/>
+</associations>
+</Column>
+<Column name="id_tipo_modalidad" id="D97A35A5-FD6F-FA16-B790-18D84E2DD854">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:25:55 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="643426FA-C25D-8EF9-4B7C-925C55C2B900" referredColumn="227550B5-F7D5-C313-24B9-AF02B72ABCBE"/>
+</associations>
+</Column>
+<Column name="id_caracter_asig" id="457614AC-9105-06D5-2A2B-A0F37E727347">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:32:11 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="359B3514-0708-9B07-B30E-B635BB7D540A" referredColumn="29C72C87-8C8A-6331-85CE-D2BA04FA9F76"/>
+</associations>
+</Column>
+<Column name="horas_teo_semana" id="EB797588-D949-1A5A-9118-058324A91487">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:35:47 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_pract_semana" id="15468CE8-33DC-2867-0BC7-643E4DDFC7DC">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:35:47 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_teo_semestre" id="3B6E2134-3003-2255-E087-37909D8B7270">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:35:47 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_pract_semestre" id="6DEE0E1A-F2EE-348E-9C2A-0CCB07C8E72E">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:35:47 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="objetivo_general" id="8F989174-6012-A385-48BB-818A27D777E6">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:53:34 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="formacion_integral" id="74B2D7D0-5540-4E87-A05F-05EE8B3E8C55">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 22:45:09 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2500 CHAR</dataTypeSize>
+<ownDataTypeParameters>2500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="perfil_profesiografico" id="EB21F644-8B9E-BB1D-7F23-D55AC6E895D0">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 22:46:12 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2500 CHAR</dataTypeSize>
+<ownDataTypeParameters>2500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="B9D4355C-BE83-B68B-7444-EFB0CA6C1C56">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 16:15:01 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_modificacion" id="6E5E5D8C-2B43-7552-4461-9F4F08DE2F72">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 16:15:01 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario_creacion" id="619D7515-4C82-9FDE-AEDB-58A65F690192">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 16:15:09 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D3CF6A6-D2F4-1B3E-38A9-1DC45D84AB1D" referredColumn="DFA22D80-6D91-EBF5-374D-3E73EBCB68D8"/>
+</associations>
+</Column>
+<Column name="id_usuario_mod" id="365D75E6-728B-E34A-612F-28153B596461">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:04:40 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DB1C8BB-4690-DC1C-FDDE-FB50CC47DD15" referredColumn="DFA22D80-6D91-EBF5-374D-3E73EBCB68D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D187B59-D410-7299-0BED-223F18E93636" name="solicitud_tomoii_pk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:54:47 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90D7FB0C-0BC0-5CEA-0715-B4598EEF411C"/>
+<colUsage columnID="B70911BC-72EC-A42C-8C27-78F5C9FE8784"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A329444-BFC2-EFD3-5B9E-FABBACF7B07E" name="id_estatus_solicitud_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 16:11:49 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B70911BC-72EC-A42C-8C27-78F5C9FE8784"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCB8BB85-F269-801C-9C86-A913A0087D2D" name="id_usuario_sist_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 16:15:09 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="619D7515-4C82-9FDE-AEDB-58A65F690192"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="249ED314-DCB8-46B9-1813-391B6A74ED91" name="id_usuario_mod_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:04:39 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="365D75E6-728B-E34A-612F-28153B596461"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8895C434-0990-5BE9-2AA0-89140411CA18" name="id_area_conocimiento_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:14:06 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4A2D900-849C-3380-0444-A75B7A659039"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B85611C3-E546-F767-CFD9-D4995846A519" name="id_relacion_mod_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:25:55 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A22A432F-ACE6-E975-B234-65A622A2429A"/>
+<colUsage columnID="D97A35A5-FD6F-FA16-B790-18D84E2DD854"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17DA92E5-D871-CE93-CD0F-DF6DA3CFC51C" name="id_caract_asig_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:32:11 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="457614AC-9105-06D5-2A2B-A0F37E727347"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AD7F10ED-5CAC-DB45-39AE-45D54B9435A3" containerWithKeyObject="F9444C24-2D0D-82F9-738A-3B3A4E29BDC4" localFKIndex="9A58D319-5109-D0AF-2ED1-57CA2B1DDA85" name="id_modalidad_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:21:28 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<referredTableLongName>TC_MODALIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77C782B4-B621-6155-70D2-93EA22F1698E</referredTableID>
+<keyObject>E38C77CB-B2DD-AE75-C0BC-03F0D6C7FF78</keyObject>
+<referredKeyID>E38C77CB-B2DD-AE75-C0BC-03F0D6C7FF78</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_modalidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

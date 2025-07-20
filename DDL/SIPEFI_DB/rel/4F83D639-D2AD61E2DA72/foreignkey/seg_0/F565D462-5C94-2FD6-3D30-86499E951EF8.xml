@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F565D462-5C94-2FD6-3D30-86499E951EF8" containerWithKeyObject="AC530CA7-79A3-FB81-7BF2-CCB03661DA8A" localFKIndex="72C611F8-B4B5-9488-D861-CB19DFD4BE5A" name="licenciatura_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 19:27:08 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<referredTableLongName>CATALOGO.TC_LICENCIATURA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A6567D8B-1A95-942C-98F7-4128445AAF4B</referredTableID>
+<keyObject>A489346A-0644-C02F-ECE9-E92747BED8AF</keyObject>
+<referredKeyID>A489346A-0644-C02F-ECE9-E92747BED8AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_licenciatura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

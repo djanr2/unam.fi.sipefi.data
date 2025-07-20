@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="C8C05BB5-B59B-4B01-D451-D11C3E870E72" name="SIPEFI" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

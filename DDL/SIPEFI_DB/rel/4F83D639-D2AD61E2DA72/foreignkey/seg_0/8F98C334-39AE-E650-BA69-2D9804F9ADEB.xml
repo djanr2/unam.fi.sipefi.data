@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F98C334-39AE-E650-BA69-2D9804F9ADEB" containerWithKeyObject="4CCDDFF2-B0DB-D8C5-1B8B-B2424B7C8BFA" localFKIndex="FC35C770-0188-8EEC-A0CB-0B3918CB3551" name="tipo_biblio_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 21:08:35 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<referredTableLongName>TC_TIPO_BIBLIOGRAFIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96E78C71-27EF-CE5A-1B73-6EA8A7D77EFE</referredTableID>
+<keyObject>927E86C3-A8D2-994D-0384-A63A12D3E96F</keyObject>
+<referredKeyID>927E86C3-A8D2-994D-0384-A63A12D3E96F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_tipo_bibliografia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

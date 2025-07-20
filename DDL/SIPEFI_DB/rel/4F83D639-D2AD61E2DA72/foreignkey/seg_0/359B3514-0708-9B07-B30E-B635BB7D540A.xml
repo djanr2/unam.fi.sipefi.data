@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="359B3514-0708-9B07-B30E-B635BB7D540A" containerWithKeyObject="D2D466D4-9953-B04E-466E-1D16E4110550" localFKIndex="17DA92E5-D871-CE93-CD0F-DF6DA3CFC51C" name="id_caract_asig_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:32:11 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<referredTableLongName>CATALOGO.TC_CARACTER_ASIGNATURA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B79A86AB-39CB-E739-886B-C7854FD190F6</referredTableID>
+<keyObject>9553A513-78D9-1EE5-62E9-A59A7E4C1C36</keyObject>
+<referredKeyID>9553A513-78D9-1EE5-62E9-A59A7E4C1C36</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_caracter_asig</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

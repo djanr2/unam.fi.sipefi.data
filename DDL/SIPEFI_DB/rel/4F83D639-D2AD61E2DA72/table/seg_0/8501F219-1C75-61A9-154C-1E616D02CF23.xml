@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8501F219-1C75-61A9-154C-1E616D02CF23" schemaObject="43447D81-74CE-CFAC-B7F3-891C016B68AE" name="TD_ASIGNATURA">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:36:40 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignatura" id="D43132F2-CFE0-F264-E79A-01DF63504B97">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:40:06 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asignatura" id="B8A0ABF1-61D3-CD47-3099-B51D849EF665">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:40:06 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clave_asignatura" id="3FA88BB0-A0BA-3A80-3320-D2C957CDD91E">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:40:06 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plan_estudios" id="11C80E15-D32A-B49F-A0CF-9473BA1CC44E">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:40:06 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="busuario" id="D1B446CD-A195-605C-FCC7-34FC7E9862DE">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:40:06 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bfecha" id="16910B05-C7DF-3767-6316-CD0458421E41">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:40:06 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC48FD60-F4D3-B268-2F05-89B5B2439706" name="asignatura_pk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:40:40 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D43132F2-CFE0-F264-E79A-01DF63504B97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6567D8B-1A95-942C-98F7-4128445AAF4B" schemaObject="A83DAE82-98F7-BAD9-6C49-A803BE28992E" name="TC_LICENCIATURA">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:36:54 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_licenciatura" id="E2178412-8FC8-CBF8-6D84-3E058770943B">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:37:34 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="licenciatura" id="503DD4B1-EB27-7833-70DE-9BBDA2FC28B7">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:40:46 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_division" id="D0823ED4-DDFF-CCAA-9A8B-BAB7788B5A11">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:37:38 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF00AD48-183D-6FD7-665F-69470D7E93CA" referredColumn="C198C7B8-8C3B-3DC9-E3B6-42A1A6F41E09"/>
+</associations>
+</Column>
+<Column name="busuario" id="8A485582-1FE0-18F7-B870-35792FBF9CFE">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:40:46 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bfecha" id="AD9EB9A2-4764-A530-A09E-05A133DC30E9">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:40:46 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A489346A-0644-C02F-ECE9-E92747BED8AF" name="licenciatura_pk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:40:46 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2178412-8FC8-CBF8-6D84-3E058770943B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD5E01F2-0921-372F-EC4A-2EA642FD2E63" name="id_division_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:37:38 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0823ED4-DDFF-CCAA-9A8B-BAB7788B5A11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

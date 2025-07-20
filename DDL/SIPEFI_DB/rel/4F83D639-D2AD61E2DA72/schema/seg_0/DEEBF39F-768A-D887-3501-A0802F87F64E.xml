@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="PARAMETRO" directorySegmentName="seg_0" id="DEEBF39F-768A-D887-3501-A0802F87F64E">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 13:16:28 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<ordsAlias>schema_3</ordsAlias>
+</SchemaObject>

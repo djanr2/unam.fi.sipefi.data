@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="523D2E14-CFFA-DFC3-029D-267C0D9F8CFD" schemaObject="A83DAE82-98F7-BAD9-6C49-A803BE28992E" name="TC_ESTATUS_SOLICITUD">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:56:02 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estatus_solicitud" id="A6ED083B-D249-F1FF-F076-F77BD1BE5242">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:58:35 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_estatus" id="99C28AE8-7726-A4A2-5ADE-3B1605A215B9">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:58:35 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bfecha" id="7EBB99A5-92C6-4BC4-5C78-6B15B7842FA0">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:58:35 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="busuario" id="6F3D106A-A042-AFAC-7F55-AF80822D35DB">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:58:35 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C959DE7-FA0B-DAB6-B0C9-82FA3D009517" name="estatus_solicitud_pk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:58:35 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6ED083B-D249-F1FF-F076-F77BD1BE5242"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

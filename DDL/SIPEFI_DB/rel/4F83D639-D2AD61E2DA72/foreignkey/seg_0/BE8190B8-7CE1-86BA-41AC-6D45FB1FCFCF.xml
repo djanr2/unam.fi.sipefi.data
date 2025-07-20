@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE8190B8-7CE1-86BA-41AC-6D45FB1FCFCF" containerWithKeyObject="D2D466D4-9953-B04E-466E-1D16E4110550" localFKIndex="8895C434-0990-5BE9-2AA0-89140411CA18" name="id_area_conocimiento_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 17:14:06 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<referredTableLongName>CATALOGO.TC_AREA_CONOCIMIENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>02F4581D-E5DF-CAD9-7157-ABF454254452</referredTableID>
+<keyObject>7FF24F05-B191-9DAF-29E7-09E629E1860C</keyObject>
+<referredKeyID>7FF24F05-B191-9DAF-29E7-09E629E1860C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_area_conocimiento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

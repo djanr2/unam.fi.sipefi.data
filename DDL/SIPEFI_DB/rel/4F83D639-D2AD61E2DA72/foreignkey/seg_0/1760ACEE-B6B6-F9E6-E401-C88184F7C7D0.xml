@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1760ACEE-B6B6-F9E6-E401-C88184F7C7D0" containerWithKeyObject="A74853B1-E2A9-361F-519D-43E76E6D67B3" localFKIndex="17A8B4D8-9473-77E7-C791-FC00E7AEEA02" name="id_division_fkv2">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-04 15:47:07 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<referredTableLongName>TC_DIVISION_FI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D510DBB7-5BA7-D857-27AF-54E02AECE1C3</referredTableID>
+<keyObject>00BE6A87-DD91-D685-290B-C218112A4FF5</keyObject>
+<referredKeyID>00BE6A87-DD91-D685-290B-C218112A4FF5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_division</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

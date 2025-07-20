@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9627748-5405-F9F9-73A6-D006F1CC0C4F" containerWithKeyObject="AC530CA7-79A3-FB81-7BF2-CCB03661DA8A" localFKIndex="798F1F8B-3FAD-7DED-55B5-7EAD996EB103" name="sol_tomoii_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 19:23:59 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<referredTableLongName>SIPEFI.TD_SOLICITUD_TOMO_II</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D2D466D4-9953-B04E-466E-1D16E4110550</referredTableID>
+<keyObject>7D187B59-D410-7299-0BED-223F18E93636</keyObject>
+<referredKeyID>7D187B59-D410-7299-0BED-223F18E93636</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_solicitud,id_estatus_solicitud</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

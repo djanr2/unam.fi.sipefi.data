@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4BDCFE7-7FAA-C0BD-AA91-312A5640681C" schemaObject="43447D81-74CE-CFAC-B7F3-891C016B68AE" name="TD_REL_ASIG_EVALUACION">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 22:34:29 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_solicitud" id="30909BB7-673B-F2AC-9438-C5BB3E9650B2">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 22:35:23 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1709435A-7BCD-8ABB-DE52-E88A2C5B5F07" referredColumn="90D7FB0C-0BC0-5CEA-0715-B4598EEF411C"/>
+</associations>
+</Column>
+<Column name="id_estatus_solicitud" id="E5518177-4F06-F3E3-5338-12FFF550EB0D">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 22:35:23 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1709435A-7BCD-8ABB-DE52-E88A2C5B5F07" referredColumn="B70911BC-72EC-A42C-8C27-78F5C9FE8784"/>
+</associations>
+</Column>
+<Column name="id_forma_eval" id="C6109423-0608-66C9-3D5D-A449560FEBF8">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 22:42:04 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DA5171E-CA4E-A668-7BF0-BE2525B636BB" referredColumn="82118B41-8BD9-2F88-ABC0-BDE3CCF0B065"/>
+</associations>
+</Column>
+<Column name="busuario" id="4F2C388D-E2D2-6F35-94D2-A7DFAF4B4E2F">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 22:43:00 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bfecha" id="BFF28314-535B-80ED-E3BE-1281F3B9C8B2">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 22:43:00 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="009C7C7C-A650-7B7D-21F0-7EBEDEAA29E9" name="asig_form_eval_pk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 22:43:26 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30909BB7-673B-F2AC-9438-C5BB3E9650B2"/>
+<colUsage columnID="E5518177-4F06-F3E3-5338-12FFF550EB0D"/>
+<colUsage columnID="C6109423-0608-66C9-3D5D-A449560FEBF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A2BCCDD-6539-75D8-FE5F-7ABF04303DAB" name="sol_eval_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 22:35:23 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30909BB7-673B-F2AC-9438-C5BB3E9650B2"/>
+<colUsage columnID="E5518177-4F06-F3E3-5338-12FFF550EB0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="963AB084-ACB4-E45C-A97A-48B7615D238C" name="forma_eval_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 22:42:04 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6109423-0608-66C9-3D5D-A449560FEBF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

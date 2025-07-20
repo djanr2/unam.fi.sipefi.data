@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2345B37-1534-F908-9495-4687AC872B66" schemaObject="43447D81-74CE-CFAC-B7F3-891C016B68AE" name="TD_TEMARIO_ASIGNATURA">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 19:53:20 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_solicitud" id="BF6ECC18-1996-8964-E405-1BD1CEE56D06">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 19:53:51 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8D9E729-F692-2E18-90EF-64AA2331DB44" referredColumn="90D7FB0C-0BC0-5CEA-0715-B4598EEF411C"/>
+</associations>
+</Column>
+<Column name="id_estatus_solicitud" id="0D83F2B7-BEA2-1BF9-4E39-EF27F8577330">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 19:53:51 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8D9E729-F692-2E18-90EF-64AA2331DB44" referredColumn="B70911BC-72EC-A42C-8C27-78F5C9FE8784"/>
+</associations>
+</Column>
+<Column name="num_tema" id="E9378184-202C-0930-1AF0-E9E413FC2C50">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 19:56:31 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tema" id="99CA1923-AE9E-F245-E9BE-05D4375856FD">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 19:56:31 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="objetivo" id="AE69B848-E0E1-3832-64F9-C825D874453B">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 19:57:19 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_tema" id="BA62734B-408A-F7B8-09BC-640495C8555C">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 20:02:11 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="actividades_practicas" id="5EA49564-1629-2294-F224-4BF7D2072485">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 20:01:39 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="busuario" id="400DEA41-DDA4-1B33-58CE-BB4C6DE9B8EC">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 20:11:28 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bfecha" id="585075E1-D064-330C-060A-8D566E6F4C3D">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 20:11:28 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D88C0DF-05F7-06B0-89EA-E3E70194A89D" name="temario_asig_pk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 20:05:02 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF6ECC18-1996-8964-E405-1BD1CEE56D06"/>
+<colUsage columnID="0D83F2B7-BEA2-1BF9-4E39-EF27F8577330"/>
+<colUsage columnID="E9378184-202C-0930-1AF0-E9E413FC2C50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="824D8D40-53D7-FFC6-0BF5-2938EC1C2802" name="id_sol_tomoii_tem_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-19 19:53:51 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF6ECC18-1996-8964-E405-1BD1CEE56D06"/>
+<colUsage columnID="0D83F2B7-BEA2-1BF9-4E39-EF27F8577330"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
