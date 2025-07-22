@@ -19,6 +19,7 @@ ALTER TABLE PARAMETRO.TD_USUARIO
 CREATE TABLE PARAMETRO.TP_ACCESOS 
     ( 
      id_usuario     NUMBER  NOT NULL , 
+     token          VARCHAR2 (100 CHAR)  NOT NULL , 
      fecha_acceso   DATE DEFAULT sysdate  NOT NULL , 
      estatus_acceso VARCHAR2 (10 CHAR)  NOT NULL , 
      modulo         VARCHAR2 (50 CHAR)  NOT NULL 
