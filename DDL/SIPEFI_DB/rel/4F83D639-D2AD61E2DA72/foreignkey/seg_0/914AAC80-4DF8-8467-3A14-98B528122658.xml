@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="914AAC80-4DF8-8467-3A14-98B528122658" containerWithKeyObject="D2D466D4-9953-B04E-466E-1D16E4110550" localFKIndex="BAF71235-64AA-1CE6-3DEF-16BA76535873" name="id_perfil_tomii_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-22 05:03:53 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<referredTableLongName>CATALOGO.TC_PERFIL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC84C0F7-8822-7806-8669-9AD418293A8D</referredTableID>
+<keyObject>14A9CB43-B633-19D1-FF40-AD10F3577875</keyObject>
+<referredKeyID>14A9CB43-B633-19D1-FF40-AD10F3577875</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_perfil</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

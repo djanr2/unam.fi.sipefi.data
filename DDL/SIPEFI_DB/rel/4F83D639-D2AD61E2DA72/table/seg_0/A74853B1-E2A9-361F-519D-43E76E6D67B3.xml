@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A74853B1-E2A9-361F-519D-43E76E6D67B3" schemaObject="DEEBF39F-768A-D887-3501-A0802F87F64E" name="TD_USUARIO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A74853B1-E2A9-361F-519D-43E76E6D67B3" schemaObject="DEEBF39F-768A-D887-3501-A0802F87F64E" name="TP_USUARIO">
 <createdBy>LeoGU</createdBy>
 <createdTime>2025-07-04 15:44:18 UTC</createdTime>
 <ownerDesignName>SIPEFI_DB</ownerDesignName>

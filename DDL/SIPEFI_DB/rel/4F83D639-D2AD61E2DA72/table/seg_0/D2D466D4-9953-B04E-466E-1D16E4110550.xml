@@ -192,6 +192,20 @@
 <ownDataTypeParameters>2500 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="id_perfil" id="C591A4DF-BB20-C7A2-800E-447482421CB9">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-22 05:03:53 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="914AAC80-4DF8-8467-3A14-98B528122658" referredColumn="3226F8D4-F6B3-5448-C73A-25CE8D98C1FF"/>
+</associations>
+</Column>
 <Column name="fecha_creacion" id="B9D4355C-BE83-B68B-7444-EFB0CA6C1C56">
 <createdBy>LeoGU</createdBy>
 <createdTime>2025-07-04 16:15:01 UTC</createdTime>
@@ -315,6 +329,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="457614AC-9105-06D5-2A2B-A0F37E727347"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAF71235-64AA-1CE6-3DEF-16BA76535873" name="id_perfil_tomii_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-22 05:03:53 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C591A4DF-BB20-C7A2-800E-447482421CB9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

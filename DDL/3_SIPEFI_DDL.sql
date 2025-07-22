@@ -122,6 +122,7 @@ CREATE TABLE SIPEFI.TD_SOLICITUD_TOMO_II
      objetivo_general       CLOB , 
      formacion_integral     VARCHAR2 (2500 CHAR) , 
      perfil_profesiografico VARCHAR2 (2500 CHAR) , 
+     id_perfil              NUMBER  NOT NULL , 
      fecha_creacion         DATE , 
      fecha_modificacion     DATE , 
      id_usuario_creacion    NUMBER  NOT NULL , 
@@ -205,7 +206,7 @@ ALTER TABLE CATALOGO.TC_LICENCIATURA
     ) 
 ;
 
-ALTER TABLE PARAMETRO.TD_USUARIO 
+ALTER TABLE PARAMETRO.TP_USUARIO 
     ADD CONSTRAINT id_division_fkv2 FOREIGN KEY 
     ( 
      id_division
@@ -294,6 +295,17 @@ ALTER TABLE CATALOGO.TC_MAPEO_PERFIL
 ;
 
 ALTER TABLE SIPEFI.TD_SOLICITUD_TOMO_II 
+    ADD CONSTRAINT id_perfil_tomii_fk FOREIGN KEY 
+    ( 
+     id_perfil
+    ) 
+    REFERENCES CATALOGO.TC_PERFIL 
+    ( 
+     id_perfil
+    ) 
+;
+
+ALTER TABLE SIPEFI.TD_SOLICITUD_TOMO_II 
     ADD CONSTRAINT id_relacion_mod_fk FOREIGN KEY 
     ( 
      id_modalidad,
@@ -335,7 +347,7 @@ ALTER TABLE SIPEFI.TD_SOLICITUD_TOMO_II
     ( 
      id_usuario_mod
     ) 
-    REFERENCES PARAMETRO.TD_USUARIO 
+    REFERENCES PARAMETRO.TP_USUARIO 
     ( 
      id_usuario
     ) 
@@ -346,7 +358,7 @@ ALTER TABLE SIPEFI.TD_SOLICITUD_TOMO_II
     ( 
      id_usuario_creacion
     ) 
-    REFERENCES PARAMETRO.TD_USUARIO 
+    REFERENCES PARAMETRO.TP_USUARIO 
     ( 
      id_usuario
     ) 
@@ -363,7 +375,7 @@ ALTER TABLE SIPEFI.TD_REL_LIC_ASIGNATURA
     ) 
 ;
 
-ALTER TABLE PARAMETRO.TD_USUARIO 
+ALTER TABLE PARAMETRO.TP_USUARIO 
     ADD CONSTRAINT perfil_fk FOREIGN KEY 
     ( 
      id_perfil
@@ -479,7 +491,7 @@ ALTER TABLE PARAMETRO.TP_ACCESOS
     ( 
      id_usuario
     ) 
-    REFERENCES PARAMETRO.TD_USUARIO 
+    REFERENCES PARAMETRO.TP_USUARIO 
     ( 
      id_usuario
     ) 

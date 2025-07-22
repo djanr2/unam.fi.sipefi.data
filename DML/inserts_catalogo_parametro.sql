@@ -188,7 +188,7 @@ INSERT INTO CATALOGO.TC_TIPO_BIBLIOGRAFIA (id_tipo_bibliografia, tipo_bibliograf
 INSERT INTO CATALOGO.TC_TIPO_BIBLIOGRAFIA (id_tipo_bibliografia, tipo_bibliografia, busuario) VALUES (7, 'Artículo electrónico', 'lguzmanu');
 
 -- Inserts para PARAMETRO.TD_USUARIO
-INSERT INTO PARAMETRO.TD_USUARIO (id_usuario, usuario_sistema, clave_acceso, nombre_completo, correo, id_perfil, id_division, activo, busuario) VALUES (1, 'lguzmanu', 'sipefi123', 'Leonardo Guzmán', 'leonixgu@gmail.com', 1, 0, 0, 'lguzmanu');
+INSERT INTO PARAMETRO.TP_USUARIO (id_usuario, usuario_sistema, clave_acceso, nombre_completo, correo, id_perfil, id_division, activo, busuario) VALUES (1, 'lguzmanu', 'sipefi123', 'Leonardo Guzmán', 'leonixgu@gmail.com', 1, 0, 0, 'lguzmanu');
 
 -- Inserts para PARAMETRO.TP_PARAMETRO
 INSERT INTO PARAMETRO.TP_PARAMETRO (id_parametro, parametro, valor, busuario) VALUES (1, 'url_sipefi_login', 'http://127.0.0.1:8000/SIPEFI/login/', 'lguzmanu');
