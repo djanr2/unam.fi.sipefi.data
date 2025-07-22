@@ -22,6 +22,17 @@
 <colAssociation fkAssociation="D75878C9-31D5-CE18-E942-3A948D62F703" referredColumn="DFA22D80-6D91-EBF5-374D-3E73EBCB68D8"/>
 </associations>
 </Column>
+<Column name="token" id="9CA57877-A23B-E60F-DF96-321EA95D5604">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-07-22 02:51:48 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="fecha_acceso" id="4001C920-DDED-D569-208E-D0AD1CB7CF78">
 <createdBy>LeoGU</createdBy>
 <createdTime>2025-07-19 23:46:33 UTC</createdTime>
