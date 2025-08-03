@@ -81,17 +81,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="actividades_practicas" id="5EA49564-1629-2294-F224-4BF7D2072485">
-<createdBy>LeoGU</createdBy>
-<createdTime>2025-07-19 20:01:39 UTC</createdTime>
-<ownerDesignName>SIPEFI_DB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="busuario" id="400DEA41-DDA4-1B33-58CE-BB4C6DE9B8EC">
 <createdBy>LeoGU</createdBy>
 <createdTime>2025-07-19 20:11:28 UTC</createdTime>

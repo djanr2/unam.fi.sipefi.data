@@ -307,6 +307,7 @@ CREATE TABLE SIPEFI.TD_SOLICITUD_TOMO_II
      horas_teo_semestre     NUMBER , 
      horas_pract_semestre   NUMBER , 
      objetivo_general       CLOB , 
+     actividades_practicas  NUMBER , 
      formacion_integral     VARCHAR2 (2500 CHAR) , 
      perfil_profesiografico VARCHAR2 (2500 CHAR) , 
      id_perfil              NUMBER  NOT NULL , 
@@ -322,15 +323,14 @@ ALTER TABLE SIPEFI.TD_SOLICITUD_TOMO_II
 
 CREATE TABLE SIPEFI.TD_TEMARIO_ASIGNATURA 
     ( 
-     id_solicitud          NUMBER  NOT NULL , 
-     id_estatus_solicitud  NUMBER  NOT NULL , 
-     num_tema              NUMBER  NOT NULL , 
-     tema                  VARCHAR2 (250 CHAR) , 
-     objetivo              VARCHAR2 (1000 CHAR) , 
-     horas_tema            NUMBER , 
-     actividades_practicas NUMBER , 
-     busuario              VARCHAR2 (30 CHAR)  NOT NULL , 
-     bfecha                DATE DEFAULT sysdate  NOT NULL 
+     id_solicitud         NUMBER  NOT NULL , 
+     id_estatus_solicitud NUMBER  NOT NULL , 
+     num_tema             NUMBER  NOT NULL , 
+     tema                 VARCHAR2 (250 CHAR) , 
+     objetivo             VARCHAR2 (1000 CHAR) , 
+     horas_tema           NUMBER , 
+     busuario             VARCHAR2 (30 CHAR)  NOT NULL , 
+     bfecha               DATE DEFAULT sysdate  NOT NULL 
     ) 
 ;
 
