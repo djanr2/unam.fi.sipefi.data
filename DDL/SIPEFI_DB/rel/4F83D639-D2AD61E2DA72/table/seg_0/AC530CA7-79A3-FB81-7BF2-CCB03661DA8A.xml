@@ -50,20 +50,6 @@
 <colAssociation fkAssociation="F565D462-5C94-2FD6-3D30-86499E951EF8" referredColumn="E2178412-8FC8-CBF8-6D84-3E058770943B"/>
 </associations>
 </Column>
-<Column name="id_asignatura" id="C1DAE523-7997-2949-7447-2BD6C1DD71BE">
-<createdBy>LeoGU</createdBy>
-<createdTime>2025-07-19 19:25:28 UTC</createdTime>
-<ownerDesignName>SIPEFI_DB</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B4AEA2B3-DECD-CA66-7989-62C311DFE9FC" referredColumn="D43132F2-CFE0-F264-E79A-01DF63504B97"/>
-</associations>
-</Column>
 <Column name="seriacion_ant" id="4DBBFA81-3593-6007-1CA6-F81943CF0312">
 <createdBy>LeoGU</createdBy>
 <createdTime>2025-08-03 00:31:12 UTC</createdTime>
@@ -137,7 +123,6 @@
 <colUsage columnID="A013EAB8-B9FF-81E2-97A0-D85DC131E385"/>
 <colUsage columnID="A35B3938-4EB9-6F08-7BAC-976F79258275"/>
 <colUsage columnID="2A49015A-5FF7-A1C4-AEB3-1DF08C89A84F"/>
-<colUsage columnID="C1DAE523-7997-2949-7447-2BD6C1DD71BE"/>
 <colUsage columnID="4DBBFA81-3593-6007-1CA6-F81943CF0312"/>
 <colUsage columnID="BD370311-0686-30A0-CEC3-A2F20EE9352D"/>
 <colUsage columnID="0753344B-7FBD-3476-5340-47418AF125A5"/>
@@ -152,16 +137,6 @@
 <indexColumnUsage>
 <colUsage columnID="A013EAB8-B9FF-81E2-97A0-D85DC131E385"/>
 <colUsage columnID="A35B3938-4EB9-6F08-7BAC-976F79258275"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="10B14255-64AA-D674-2023-1D92DFA44C57" name="asignatura_fk">
-<createdBy>LeoGU</createdBy>
-<createdTime>2025-07-19 19:25:28 UTC</createdTime>
-<ownerDesignName>SIPEFI_DB</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C1DAE523-7997-2949-7447-2BD6C1DD71BE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="72C611F8-B4B5-9488-D861-CB19DFD4BE5A" name="licenciatura_fk">

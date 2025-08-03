@@ -267,7 +267,6 @@ CREATE TABLE SIPEFI.TD_REL_LIC_ASIGNATURA
      id_solicitud         NUMBER  NOT NULL , 
      id_estatus_solicitud NUMBER  NOT NULL , 
      id_licenciatura      NUMBER  NOT NULL , 
-     id_asignatura        NUMBER  NOT NULL , 
      seriacion_ant        NUMBER  NOT NULL , 
      seriacion_cons       NUMBER  NOT NULL , 
      semestre             NUMBER  NOT NULL , 
@@ -277,7 +276,7 @@ CREATE TABLE SIPEFI.TD_REL_LIC_ASIGNATURA
 ;
 
 ALTER TABLE SIPEFI.TD_REL_LIC_ASIGNATURA 
-    ADD CONSTRAINT rel_lic_asig_pk PRIMARY KEY ( id_solicitud, id_estatus_solicitud, id_licenciatura, id_asignatura, seriacion_ant, seriacion_cons, semestre ) ;
+    ADD CONSTRAINT rel_lic_asig_pk PRIMARY KEY ( id_solicitud, id_estatus_solicitud, id_licenciatura, seriacion_ant, seriacion_cons, semestre ) ;
 
 CREATE TABLE SIPEFI.TD_REL_VAL_PRACTICO 
     ( 
@@ -297,6 +296,8 @@ CREATE TABLE SIPEFI.TD_SOLICITUD_TOMO_II
      id_solicitud           NUMBER  NOT NULL , 
      id_estatus_solicitud   NUMBER  NOT NULL , 
      historica              NUMBER  NOT NULL , 
+     asignatura             VARCHAR2 (200 CHAR)  NOT NULL , 
+     clave_asignatura       NUMBER , 
      creditos               NUMBER , 
      id_area_conocimiento   NUMBER , 
      id_modalidad           NUMBER , 
@@ -377,17 +378,6 @@ CREATE TABLE PARAMETRO.TP_USUARIO
 
 ALTER TABLE PARAMETRO.TP_USUARIO 
     ADD CONSTRAINT usuario_pk PRIMARY KEY ( id_usuario ) ;
-
-ALTER TABLE SIPEFI.TD_REL_LIC_ASIGNATURA 
-    ADD CONSTRAINT asignatura_fk FOREIGN KEY 
-    ( 
-     id_asignatura
-    ) 
-    REFERENCES SIPEFI.TD_ASIGNATURA 
-    ( 
-     id_asignatura
-    ) 
-;
 
 ALTER TABLE SIPEFI.TD_REL_ASIG_EVALUACION 
     ADD CONSTRAINT forma_eval_fk FOREIGN KEY 

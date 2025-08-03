@@ -42,6 +42,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="asignatura" id="B0CA53B1-2092-DB63-84F8-62A23F7656F6">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-08-03 20:21:26 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clave_asignatura" id="782DF9BF-D24E-026D-1EC0-04790AB86D0C">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-08-03 20:23:58 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="creditos" id="A1B053C0-4726-F466-D3F4-59895834BEB3">
 <createdBy>LeoGU</createdBy>
 <createdTime>2025-07-04 17:08:57 UTC</createdTime>
