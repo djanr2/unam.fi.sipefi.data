@@ -274,6 +274,6 @@ INSERT INTO PARAMETRO.TP_USUARIO (id_usuario, usuario_sistema, clave_acceso, nom
 -- ESQUEMA: SIPEFI | TABLA: TD_ASIGNATURA
 -- =====================================
 
-INSERT INTO SIPEFI.TD_ASIGNATURA (id_asignatura, asignatura, clave_asignatura, plan_estudios, busuario) VALUES (0, 'Elige una opción', NULL, 2025, 'lguzmanu');
+INSERT INTO SIPEFI.TD_ASIGNATURA (id_asignatura, asignatura, clave_asignatura, plan_estudios, busuario) VALUES (0, 'Ninguna', NULL, 2025, 'lguzmanu');
 
 commit;
