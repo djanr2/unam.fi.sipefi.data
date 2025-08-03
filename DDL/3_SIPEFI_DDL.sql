@@ -94,16 +94,29 @@ CREATE TABLE SIPEFI.TD_REL_LIC_ASIGNATURA
      id_estatus_solicitud NUMBER  NOT NULL , 
      id_licenciatura      NUMBER  NOT NULL , 
      id_asignatura        NUMBER  NOT NULL , 
-     semestre             NUMBER , 
-     seriacion_ant        NUMBER , 
-     seriacion_cons       NUMBER , 
+     seriacion_ant        NUMBER  NOT NULL , 
+     seriacion_cons       NUMBER  NOT NULL , 
+     semestre             NUMBER  NOT NULL , 
      busuario             VARCHAR2 (30 CHAR)  NOT NULL , 
      bfecha               DATE DEFAULT sysdate  NOT NULL 
     ) 
 ;
 
 ALTER TABLE SIPEFI.TD_REL_LIC_ASIGNATURA 
-    ADD CONSTRAINT rel_lic_asig_pk PRIMARY KEY ( id_solicitud, id_estatus_solicitud, id_licenciatura, id_asignatura ) ;
+    ADD CONSTRAINT rel_lic_asig_pk PRIMARY KEY ( id_solicitud, id_estatus_solicitud, id_licenciatura, id_asignatura, seriacion_ant, seriacion_cons, semestre ) ;
+
+CREATE TABLE SIPEFI.TD_REL_VAL_PRACTICO 
+    ( 
+     id_solicitud         NUMBER  NOT NULL , 
+     id_estatus_solicitud NUMBER  NOT NULL , 
+     id_valor_practico    NUMBER  NOT NULL , 
+     busuario             VARCHAR2 (30 CHAR)  NOT NULL , 
+     bfecha               DATE DEFAULT sysdate  NOT NULL 
+    ) 
+;
+
+ALTER TABLE SIPEFI.TD_REL_VAL_PRACTICO 
+    ADD CONSTRAINT rel_val_pract_pk PRIMARY KEY ( id_solicitud, id_estatus_solicitud, id_valor_practico ) ;
 
 CREATE TABLE SIPEFI.TD_SOLICITUD_TOMO_II 
     ( 
@@ -318,6 +331,28 @@ ALTER TABLE SIPEFI.TD_SOLICITUD_TOMO_II
     ) 
 ;
 
+ALTER TABLE SIPEFI.TD_REL_LIC_ASIGNATURA 
+    ADD CONSTRAINT id_ser_ant_fk FOREIGN KEY 
+    ( 
+     seriacion_ant
+    ) 
+    REFERENCES SIPEFI.TD_ASIGNATURA 
+    ( 
+     id_asignatura
+    ) 
+;
+
+ALTER TABLE SIPEFI.TD_REL_LIC_ASIGNATURA 
+    ADD CONSTRAINT id_seria_cons_fk FOREIGN KEY 
+    ( 
+     seriacion_cons
+    ) 
+    REFERENCES SIPEFI.TD_ASIGNATURA 
+    ( 
+     id_asignatura
+    ) 
+;
+
 ALTER TABLE SIPEFI.TD_TEMARIO_ASIGNATURA 
     ADD CONSTRAINT id_sol_tomoii_tem_fk FOREIGN KEY 
     ( 
@@ -386,25 +421,14 @@ ALTER TABLE PARAMETRO.TP_USUARIO
     ) 
 ;
 
-ALTER TABLE SIPEFI.TD_REL_LIC_ASIGNATURA 
-    ADD CONSTRAINT seriacion_ant_fk FOREIGN KEY 
+ALTER TABLE SIPEFI.TD_REL_VAL_PRACTICO 
+    ADD CONSTRAINT rel_val_practico_fk FOREIGN KEY 
     ( 
-     seriacion_ant
+     id_valor_practico
     ) 
-    REFERENCES SIPEFI.TD_ASIGNATURA 
+    REFERENCES CATALOGO.TC_VALOR_PRACTICO 
     ( 
-     id_asignatura
-    ) 
-;
-
-ALTER TABLE SIPEFI.TD_REL_LIC_ASIGNATURA 
-    ADD CONSTRAINT seriacion_cons_fk FOREIGN KEY 
-    ( 
-     seriacion_cons
-    ) 
-    REFERENCES SIPEFI.TD_ASIGNATURA 
-    ( 
-     id_asignatura
+     id_valor_practico
     ) 
 ;
 
@@ -449,6 +473,19 @@ ALTER TABLE SIPEFI.TD_BIBLIOGRAFIA
 
 ALTER TABLE SIPEFI.TD_REL_LIC_ASIGNATURA 
     ADD CONSTRAINT sol_tomoii_fk FOREIGN KEY 
+    ( 
+     id_solicitud,
+     id_estatus_solicitud
+    ) 
+    REFERENCES SIPEFI.TD_SOLICITUD_TOMO_II 
+    ( 
+     id_solicitud,
+     id_estatus_solicitud
+    ) 
+;
+
+ALTER TABLE SIPEFI.TD_REL_VAL_PRACTICO 
+    ADD CONSTRAINT solicitud_val_pract_fk FOREIGN KEY 
     ( 
      id_solicitud,
      id_estatus_solicitud

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="19A736E5-DF4B-8F68-C6EB-4B676FF86F42" containerWithKeyObject="22683580-D425-09EB-FEDF-C997A3AA43C7" localFKIndex="FB4A5CD2-5F0D-57F4-1AA0-0A6E5FD0FC7A" name="rel_val_practico_fk">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-08-03 00:15:27 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<referredTableLongName>CATALOGO.TC_VALOR_PRACTICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4EF45018-F87D-ED52-B01F-B1606A40F76F</referredTableID>
+<keyObject>603C9B1C-37A8-BB35-1BA5-67A02412460A</keyObject>
+<referredKeyID>603C9B1C-37A8-BB35-1BA5-67A02412460A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_valor_practico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

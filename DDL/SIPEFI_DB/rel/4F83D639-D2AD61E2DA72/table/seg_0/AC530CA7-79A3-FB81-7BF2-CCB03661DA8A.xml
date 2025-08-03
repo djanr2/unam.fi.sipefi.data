@@ -64,46 +64,43 @@
 <colAssociation fkAssociation="B4AEA2B3-DECD-CA66-7989-62C311DFE9FC" referredColumn="D43132F2-CFE0-F264-E79A-01DF63504B97"/>
 </associations>
 </Column>
+<Column name="seriacion_ant" id="4DBBFA81-3593-6007-1CA6-F81943CF0312">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-08-03 00:31:12 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58C48131-CB1C-B8BE-23E4-7A37C6ACD902" referredColumn="D43132F2-CFE0-F264-E79A-01DF63504B97"/>
+</associations>
+</Column>
+<Column name="seriacion_cons" id="BD370311-0686-30A0-CEC3-A2F20EE9352D">
+<createdBy>LeoGU</createdBy>
+<createdTime>2025-08-03 00:31:25 UTC</createdTime>
+<ownerDesignName>SIPEFI_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF43ACFC-F7C9-41A4-5962-A6FF56E40DF4" referredColumn="D43132F2-CFE0-F264-E79A-01DF63504B97"/>
+</associations>
+</Column>
 <Column name="semestre" id="0753344B-7FBD-3476-5340-47418AF125A5">
 <createdBy>LeoGU</createdBy>
 <createdTime>2025-07-19 19:28:10 UTC</createdTime>
 <ownerDesignName>SIPEFI_DB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="seriacion_ant" id="5073A44F-E6B7-BA6D-3A2C-C50E19EBE4C9">
-<createdBy>LeoGU</createdBy>
-<createdTime>2025-07-19 19:29:16 UTC</createdTime>
-<ownerDesignName>SIPEFI_DB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7A20C2EE-C909-93A5-D42E-274BB49BA3C8" referredColumn="D43132F2-CFE0-F264-E79A-01DF63504B97"/>
-</associations>
-</Column>
-<Column name="seriacion_cons" id="727ADE4C-7ECD-06A6-4F36-CFB59B048F60">
-<createdBy>LeoGU</createdBy>
-<createdTime>2025-07-19 19:29:44 UTC</createdTime>
-<ownerDesignName>SIPEFI_DB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="DD109175-1E11-E160-8D70-E4389C82C553" referredColumn="D43132F2-CFE0-F264-E79A-01DF63504B97"/>
-</associations>
 </Column>
 <Column name="busuario" id="619446B3-FC83-B850-C239-DC024D5E29DB">
 <createdBy>LeoGU</createdBy>
@@ -141,6 +138,9 @@
 <colUsage columnID="A35B3938-4EB9-6F08-7BAC-976F79258275"/>
 <colUsage columnID="2A49015A-5FF7-A1C4-AEB3-1DF08C89A84F"/>
 <colUsage columnID="C1DAE523-7997-2949-7447-2BD6C1DD71BE"/>
+<colUsage columnID="4DBBFA81-3593-6007-1CA6-F81943CF0312"/>
+<colUsage columnID="BD370311-0686-30A0-CEC3-A2F20EE9352D"/>
+<colUsage columnID="0753344B-7FBD-3476-5340-47418AF125A5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="798F1F8B-3FAD-7DED-55B5-7EAD996EB103" name="sol_tomoii_fk">
@@ -174,24 +174,24 @@
 <colUsage columnID="2A49015A-5FF7-A1C4-AEB3-1DF08C89A84F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="52DB61CF-9418-F244-8EEF-7977A0E0C146" name="seriacion_ant_fk">
+<ind_PK_UK id="8C438123-75CB-1448-57A1-E0BBB124A007" name="id_ser_ant_fk">
 <createdBy>LeoGU</createdBy>
-<createdTime>2025-07-19 19:29:16 UTC</createdTime>
+<createdTime>2025-08-03 00:31:12 UTC</createdTime>
 <ownerDesignName>SIPEFI_DB</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5073A44F-E6B7-BA6D-3A2C-C50E19EBE4C9"/>
+<colUsage columnID="4DBBFA81-3593-6007-1CA6-F81943CF0312"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="384ECBB3-409E-853C-4AF3-485D81BD7B4E" name="seriacion_cons_fk">
+<ind_PK_UK id="4F023FA1-C5BD-F6B9-7738-8EA32CEC7B4D" name="id_seria_cons_fk">
 <createdBy>LeoGU</createdBy>
-<createdTime>2025-07-19 19:29:44 UTC</createdTime>
+<createdTime>2025-08-03 00:31:25 UTC</createdTime>
 <ownerDesignName>SIPEFI_DB</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="727ADE4C-7ECD-06A6-4F36-CFB59B048F60"/>
+<colUsage columnID="BD370311-0686-30A0-CEC3-A2F20EE9352D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
