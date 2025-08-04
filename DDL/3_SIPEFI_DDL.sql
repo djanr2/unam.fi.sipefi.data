@@ -2,7 +2,7 @@ CREATE TABLE SIPEFI.TD_ASIGNATURA
     ( 
      id_asignatura    NUMBER  NOT NULL , 
      asignatura       VARCHAR2 (200 CHAR)  NOT NULL , 
-     clave_asignatura NUMBER , 
+     clave_asignatura VARCHAR2 (50 CHAR) , 
      plan_estudios    VARCHAR2 (50 CHAR)  NOT NULL , 
      busuario         VARCHAR2 (30 CHAR)  NOT NULL , 
      bfecha           DATE DEFAULT sysdate  NOT NULL 
@@ -123,7 +123,7 @@ CREATE TABLE SIPEFI.TD_SOLICITUD_TOMO_II
      id_estatus_solicitud   NUMBER  NOT NULL , 
      historica              NUMBER  NOT NULL , 
      asignatura             VARCHAR2 (200 CHAR)  NOT NULL , 
-     clave_asignatura       NUMBER , 
+     clave_asignatura       VARCHAR2 (50 CHAR) , 
      creditos               NUMBER , 
      id_area_conocimiento   NUMBER , 
      id_modalidad           NUMBER , 
